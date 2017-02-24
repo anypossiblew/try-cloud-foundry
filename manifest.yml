@@ -1,0 +1,7 @@
+---
+applications:
+- name: try-cloud-foundry
+  buildpack: nodejs_buildpack
+  command: node index.js
+  memory: 128M
+  disk_quota: 128M

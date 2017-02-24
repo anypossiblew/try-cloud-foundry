@@ -1,0 +1,24 @@
+{
+  "name": "try-cloud-foundry",
+  "version": "1.0.0",
+  "description": "Try Cloud Foundry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anypossiblew/try-cloud-foundry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anypossiblew/try-cloud-foundry/issues"
+  },
+  "homepage": "https://github.com/anypossiblew/try-cloud-foundry#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cfenv": "^1.0.4",
+    "express": "^4.14.1"
+  }
+}
