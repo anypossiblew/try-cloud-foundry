@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId: app
+      clientSecret: appclientsecret
+      accessTokenUri: https://try-cf-uaa.cfapps.io/oauth/token
+      userAuthorizationUri: https://try-cf-uaa.cfapps.io/oauth/authorize
+      tokenName: access_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://try-cf-uaa.cfapps.io/userinfo
